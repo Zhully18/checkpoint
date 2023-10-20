@@ -1,0 +1,15 @@
+Algorithm to Count Words and Vowels in a Sentence:
+
+1. Create three counters wordCount , vowelCount , and charCount and set the values to 0.
+2. Create another variable `sentence` to store the input sentence.
+3. Read the input sentence terminated by a period ('.') and store it in the `sentence` variable.
+4. Iterate through each character in the `sentence`:
+   a. If the character is an alphabet letter:
+      i. Increase the `charCount` by 1.
+      ii. If the character is a vowel (a, e, i, o, or u,), increase the `vowelCount` by 1.
+   b. If the character is a space:
+      i. Increase the `wordCount` by 1 to count a word.
+5. Display the following information:
+   - The number of words in the sentence (wordCount).
+   - The number of vowels in the sentence (vowelCount).
+   - The total number of characters in the sentence, including spaces (charCount).
